@@ -1,0 +1,33 @@
+.box{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: skyblue;
+    margin: 0 auto;
+    /* animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse; */
+    /* animation-delay: 3s; */
+    animation: sample 2s infinite alternate;
+    animation-timing-function: ease;
+    animation-timing-function: linear;
+    animation-timing-function: ease-in;
+    animation-timing-function: steps(3);
+}
+@keyframes sample{
+    from{
+        border-radius: 0px;
+        background-color: blue;
+        color: white;
+    }
+    to{
+        border-radius: 50%;
+        background-color: blueviolet;
+        color: black;
+    }
+}

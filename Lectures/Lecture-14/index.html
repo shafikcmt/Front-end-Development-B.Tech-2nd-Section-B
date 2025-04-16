@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript MAP Method</title>
+</head>
+<body>
+    <script>
+        var numbers = [3,5,6,7,8,2,9];
+
+        document.writeln('Before Modifide:'+numbers+'<br>');
+
+        var modifideValue = numbers.map((num)=>{
+            return num * 2;
+        });
+
+        document.writeln('Modifide Values:'+modifideValue);
+
+        document.writeln('<hr>')
+
+        // Given an array of user objects, use .map() to create a new array that contains only the names.
+
+        var users = [
+            {name:'Akash',age:21},
+            {name:'Rahul',age:23},
+            {name:'Ravi',age:24},
+            {name:'Shubham',age:25}
+        ];
+
+        var names = users.map((user)=>{
+            return user.name;
+        })
+
+        document.writeln(names);
+
+        document.writeln('<hr>')
+
+        // Convert an array of prices (in dollars) to another currency using a given conversion rate (e.g., multiply by 80 for INR).
+
+        var pricesDoller = [10,20,12,30,15];
+        var currencyRate = 80;
+
+        var convertRupees = pricesDoller.map((curency)=>{
+            return curency * currencyRate;
+        });
+
+        document.writeln(convertRupees);
+
+
+        document.writeln('<hr>')
+
+        // Given an array of strings, use .map() to convert them into an array of HTML <li> list items.
+
+        var nameLists = ['Shubham','Rahul','Vansika','Riya'];
+
+        var lists = nameLists.map((name)=>{
+            return `<li>${name}</li>`;
+        });
+
+        document.writeln('<ul>')
+        document.writeln(lists)
+        document.writeln('</ul>')
+
+        document.writeln('<hr>')
+
+        // Given an array of lowercase words, return an array where words is Uppercase.
+
+        var words = ['shubham','rahul','vansika','riya'];
+
+        var convertUppercase = words.map((word)=>{
+            return word.toUpperCase();
+        })
+
+        document.writeln(convertUppercase);
+    </script>
+</body>
+</html>

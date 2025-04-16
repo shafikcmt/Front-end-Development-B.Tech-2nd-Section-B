@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.tac{
+    text-align: center;
+}
+.tar{
+    text-align: right;
+}
+.tal{
+    text-align: left;
+}
+.taj{
+    text-align: justify;
+    letter-spacing: 2px; /*Space between letter*/
+    word-spacing: 10px; /*Space between words*/
+    line-height: 30px; /*Space between line*/
+    text-indent: 100px; /*Space first line*/
+}
+.ttu{
+    text-transform: uppercase;
+}
+.ttl{
+    text-transform: lowercase;
+}
+.ttc{
+    text-transform: capitalize;
+}
+.td{
+    text-decoration-line: overline underline line-through;
+    text-decoration-style: dotted;
+    text-decoration-style: solid;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-decoration: 5px solid red underline;
+}
+.box-container{
+    height: 200px;
+    width: 90%;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    float: left;
+
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    float: left;
+
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    float: right;
+
+}
+
+.box5{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    /* clear: left;
+    clear: right; */
+    clear: both;
+}
+.chess-container{
+    width: 800px;
+    background-color: skyblue;
+    height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.black-box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+.white-box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
